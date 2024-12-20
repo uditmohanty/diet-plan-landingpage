@@ -1,0 +1,658 @@
+<div class="page-wrapper relative z-[1] bg-black text-white">
+  <!--...::: Header Start :::... -->
+  <header
+    class="site-header site-header--absolute is--white py-3"
+    id="sticky-menu"
+  >
+    <div class="global-container">
+      <div class="flex items-center justify-between gap-x-8">
+        <!-- Header Logo -->
+        <a href="index.html" class="">
+          <img
+            src="../../../assets/img/Nutrin-logo.svg"
+            alt="Nutrin"
+            width="96"
+            height="24"
+          />
+        </a>
+        <!-- Header Logo -->
+
+        <!-- Header Navigation -->
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <img
+                  class="dropdown-icon"
+                  src="assets/img/icon-black-long-arrow-right.svg"
+                  alt="cheveron-right"
+                  width="16"
+                  height="16"
+                />
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main is-text-white">
+              <li class="nav-item">
+                <a routerLink="/" class="nav-link-item">Home</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/about" class="nav-link-item">About</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/pricing" class="nav-link-item">Packages </a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/faq" class="nav-link-item">FAQ </a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/contact" class="nav-link-item">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Header Navigation -->
+
+        <!-- Header User Event -->
+        <div class="flex items-center gap-6">
+          <a
+            href="login.html"
+            class="hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-neonGreen hover:text-neonGreen lg:inline-block"
+            >Login</a
+          >
+          <a
+            routerLink="/question"
+            class="button hidden h-full rounded border-none bg-neonGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block"
+            >Start Journey</a
+          >
+          <!-- Responsive Offcanvas Menu Button -->
+          <div class="block lg:hidden">
+            <button class="mobile-menu-trigger is-white">
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- Header User Event -->
+      </div>
+    </div>
+  </header>
+  <!--...::: Header End :::... -->
+
+  <main class="main-wrapper relative overflow-hidden">
+    <!-- Separator -->
+    <div class="global-container overflow-hidden mt-[100px]">
+      <div class="h-[1px] w-full bg-[#363636]"></div>
+    </div>
+    <!-- Separator -->
+
+    <!--...::: About Us Section Start :::... -->
+    <section id="about-hero-section">
+      <!-- Section Spacer -->
+      <div class="mb-20 lg:mb-24">
+        <!-- Section Container -->
+        <div class="global-container">
+          <!-- Section Content Block -->
+          <div class="jos mb-10 text-center lg:mb-12 xl:mb-20">
+            <div class="mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[950px]">
+              <h2>We are a trusted partner in our clients' AI journey</h2>
+            </div>
+          </div>
+          <!-- Section Content Block -->
+
+          <!-- About Hero Image -->
+          <div
+            class="jos overflow-hidden rounded-3xl"
+            data-jos_animation="zoom"
+          >
+            <img
+              src="../../../../assets/img/th-1/about-hero-logo.png"
+              alt="about-hero-image"
+              width="1296"
+              height="650"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <!-- About Hero Image -->
+        </div>
+        <!-- Section Container -->
+      </div>
+      <!-- Section Spacer -->
+    </section>
+    <!--...::: About Us Section End :::... -->
+
+    <!--...::: About Funfact Start :::... -->
+    <section id="about-funfact-section">
+      <!-- Section Container -->
+      <div class="global-container">
+        <!-- Counter Scroll -->
+        <ul
+          class="grid grid-cols-1 gap-10 gap-y-5 text-center sm:grid-cols-2 sm:text-left lg:grid-cols-4"
+        >
+          <!-- Counter Items -->
+          <li class="jos" data-jos_delay="0.1">
+            <h3
+              class="text-5xl text-neonGreen md:text-6xl lg:text-7xl xl:text-[80px]"
+              data-module="countup"
+            >
+              <span class="start-number" data-countup-number="2">2</span>K+
+            </h3>
+            <span class="block text-lg font-normal text-white"
+              >Satisfied Customers</span
+            >
+          </li>
+          <!-- Counter Items -->
+          <!-- Counter Items -->
+          <li class="jos" data-jos_delay="0.2">
+            <h3
+              class="text-5xl text-neonGreen md:text-6xl lg:text-7xl xl:text-[80px]"
+              data-module="countup"
+            >
+              <span class="start-number" data-countup-number="95">98</span>%
+            </h3>
+            <span class="block text-lg font-normal text-white"
+              >Client Satisfaction Rate</span
+            >
+          </li>
+          <!-- Counter Items -->
+          <!-- Counter Items -->
+          <li class="jos" data-jos_delay="0.3">
+            <h3
+              class="text-5xl text-neonGreen md:text-6xl lg:text-7xl xl:text-[80px]"
+              data-module="countup"
+            >
+              <span class="start-number" data-countup-number="40">16</span>+
+            </h3>
+            <span class="block text-lg font-normal text-white"
+              >Awards and Recognitions</span
+            >
+          </li>
+          <!-- Counter Items -->
+          <!-- Counter Items -->
+          <li class="jos" data-jos_delay="0.4">
+            <h3
+              class="text-5xl text-neonGreen md:text-6xl lg:text-7xl xl:text-[80px]"
+              data-module="countup"
+            >
+              <span class="start-number" data-countup-number="73">73</span>+
+            </h3>
+            <span class="block text-lg font-normal text-white"
+              >Our Professionals</span
+            >
+          </li>
+          <!-- Counter Items -->
+        </ul>
+        <!-- Counter Scroll -->
+      </div>
+      <!-- Section Container -->
+    </section>
+    <!--...::: About Funfact Start :::... -->
+
+    <!--...::: Content Section Start :::... -->
+    <section id="content-section-2">
+      <!-- Section Spacer -->
+      <div class="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+        <!-- Section Container -->
+        <div class="global-container">
+          <div
+            class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 xl:grid-cols-[minmax(0,_1.3fr)_1fr]"
+          >
+            <!-- Content Left Block -->
+            <div
+              class="jos order-2 overflow-hidden rounded-md"
+              data-jos_animation="fade-left"
+            >
+              <img
+                src="../../../../assets/img/th-1/diet-abot-us.png"
+                alt="content-image-2"
+                width="526"
+                height="550"
+                class="h-auto w-full"
+              />
+            </div>
+            <!-- Content Left Block -->
+            <!-- Content Right Block -->
+            <div class="jos order-1" data-jos_animation="fade-right">
+              <!-- Section Content Block -->
+              <div class="mb-6">
+                <h2 class=" text-white text-xl">Delivering the best solutions with AI</h2>
+              </div>
+              <!-- Section Content Block -->
+              <div class="text-lg leading-[1.4] lg:text-[21px]">
+                <p class="mb-7 last:mb-0">
+                  Our mission is to simplify healthy living by providing personalized diet plans that 
+                  help you reach your wellness goals. 
+                </p>
+                <p class="mb-7 last:mb-0">
+                  Since 2020, we’ve been dedicated to supporting our clients with expert nutrition advice 
+                  and tailored meal planning, ensuring a healthier lifestyle for everyone.
+                </p>
+                <a
+                  routerLink="/contact"
+                  class="button mt-5 rounded-[50px] border-2 border-gray bg-[#121212] py-4 text-white after:bg-neonGreen hover:border-gray hover:text-black"
+                  >Get in touch</a
+                >
+              </div>
+            </div>
+            <!-- Content Right Block -->
+          </div>
+        </div>
+        <!-- Section Container -->
+      </div>
+      <!-- Section Spacer -->
+    </section>
+    <!--...::: Content Section End :::... -->
+
+    <!--...::: Core Value Section Start :::... -->
+    <section id="core-value">
+      <!-- Section Spacer -->
+      <div
+        class="jos mx-5 rounded-[50px] bg-black px-[20px] py-20 sm:px-[50px] md:mx-[50px] lg:px-[100px] xl:py-[130px]"
+      >
+        <!-- Section Container -->
+        <div class="global-container">
+          <!-- Section Content Block -->
+          <div class="mb-10 text-center lg:mb-12 xl:mb-20">
+            <div class="mx-auto md:max-w-xl lg:max-w-3xl xl:max-w-[745px]">
+              <h2 class="text-white">The core values behind our work</h2>
+            </div>
+          </div>
+          <!-- Section Content Block -->
+
+          <!-- Horizontal Separator -->
+          <div
+            class="mb-6 h-[4px] w-full rounded bg-neonGreen sm:mb-0"
+          ></div>
+          <!-- Core Value list -->
+          <ul
+            class="grid grid-cols-1 justify-between gap-6 md:grid-cols-2 xxl:flex xxl:flex-nowrap"
+          >
+            <!-- Core Value Item -->
+            <li
+              class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-neonGreen after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100"
+            >
+              <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                <div>
+                  <img
+                    src="../../../../assets/img/th-1/2.png"
+                    alt="core-value-icon-1"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <h4 class="flex-1 text-white">Balanced Eating</h4>
+              </div>
+              <p class="text-lg text-white lg:text-[21px] lg:ml-8 ml-8">
+                Simple plans for a well-rounded diet.
+              </p>
+            </li>
+            <!-- Core Value Item -->
+            <!-- Core Value Item -->
+            <li
+              class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-neonGreen after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100"
+            >
+              <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                <div>
+                  <img
+                    src="../../../../assets/img/th-1/3.png"
+                    alt="core-value-icon-2"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <h4 class="flex-1 text-white">Low-Carb Diet</h4>
+              </div>
+              <p class="text-lg text-white lg:text-[21px] lg:ml-8 ml-8">
+                Popular low-carb meal plans for better results.
+              </p>
+            </li>
+            <!-- Core Value Item -->
+            <!-- Core Value Item -->
+            <li
+              class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-neonGreen after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100"
+            >
+              <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                <div>
+                  <img
+                    src="../../../../assets/img/th-1/4.png"
+                    alt="core-value-icon-3"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <h4 class="flex-1 text-white">Family Meal Plans</h4>
+              </div>
+              <p class="text-lg text-white lg:text-[21px] lg:ml-8 ml-8">
+                Easy, healthy meals for the whole family.
+              </p>
+            </li>
+            <!-- Core Value Item -->
+            <!-- Core Value Item -->
+            <li
+              class="relative after:absolute after:-top-[3px] after:left-0 after:h-[5px] after:w-full after:scale-x-0 after:rounded-[5px] after:bg-neonGreen after:transition-all after:duration-300 hover:after:scale-x-0 sm:pt-6 lg:pt-10 xxl:hover:after:scale-x-100"
+            >
+              <div class="mb-3 flex items-center gap-x-3 md:mb-6">
+                <div>
+                  <img
+                    src="../../../../assets/img/th-1/1.png"
+                    alt="core-value-icon-4"
+                    width="80"
+                    height="80"
+                  />
+                </div>
+                <h4 class="flex-1 text-white">Custom Diet Plans</h4>
+              </div>
+              <p class="text-lg text-white lg:text-[21px] lg:ml-8 ml-8">
+                Personalized meal plans tailored to individual goals.
+              </p>
+            </li>
+            <!-- Core Value Item -->
+          </ul>
+          <!-- Core Value list -->
+        </div>
+        <!-- Section Container -->
+      </div>
+      <!-- Section Spacer -->
+    </section>
+    <!--...::: Core Value Section End :::... -->
+
+    <!--...::: About Contact Section Start :::... -->
+    <section id="about-conact">
+      <!-- Section Spacer -->
+      <div class="bg-black pb-40 pt-20 xl:pb-[200px] xl:pt-[130px]">
+        <!-- Section Container -->
+        <div class="global-container">
+          <div
+            class="grid grid-cols-1 items-center gap-14 md:grid-cols-[minmax(0,_1fr)_1.4fr]"
+          >
+            <!-- Content Left Block -->
+            <div
+              class="jos order-2 overflow-hidden rounded-[20px] md:order-1"
+              data-jos_animation="fade-right"
+            >
+              <img
+                src="../../../../assets/img/th-1/diet-about-contact.png"
+                alt="about-contact-img"
+                width="526"
+                height="550"
+                class="h-auto w-full"
+              />
+            </div>
+            <!-- Content Left Block -->
+            <!-- Content Right Block -->
+            <div class="order-1">
+              <!-- Section Content Block -->
+              <div class="mb-6 md:max-w-max">
+                <h2 class="text-white text-xl -tracking-[0px]">
+                  Always available for our Customers.
+                </h2>
+              </div>
+              <!-- Section Content Block -->
+              <div
+                class="text-left text-lg leading-[1.4] text-white lg:text-[21px]"
+              >
+                <p class="mb-7 last:mb-0">
+                  We’re committed to making healthy eating easy and accessible for everyone. Through 
+                  personalized meal plans and expert guidance, we help you achieve your health and wellness goals.
+                </p>
+              </div>
+
+              <ul
+                class="mt-10 flex flex-col gap-6 font-dmSans text-[30px] tracking-[1.33] lg:mt-14 lg:gap-y-3 xl:mt-[70px]"
+              >
+                <li
+                  class="flex flex-col gap-x-2 leading-tight lg:flex-row lg:leading-normal"
+                >
+                  Website:
+                  <a
+                    href="https://www.example.com"
+                    class="text-white hover:text-neonGreen"
+                    >www.example.com</a
+                  >
+                </li>
+                <li
+                  class="flex flex-col gap-x-2 leading-tight  lg:flex-row lg:leading-normal"
+                >
+                  Phone:
+                  <a
+                    href="tel:+1234567890"
+                    class="text-white hover:text-neonGreen"
+                    >(123) 456-7890</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Content Right Block -->
+          </div>
+        </div>
+        <!-- Section Container -->
+      </div>
+      <!-- Section Spacer -->
+    </section>
+    <!--...::: About Contact Section End :::... -->
+
+    <!-- Separator -->
+    <div class="global-container overflow-hidden">
+      <div class="h-[1px] w-full bg-[#363636]"></div>
+    </div>
+    <!-- Separator -->
+  </main>
+
+  <!--...::: Footer-2 Section Start :::... -->
+  <footer id="footer-4">
+    <div class="relative z-[1] overflow-hidden bg-black text-white">
+      <!-- Section Container -->
+      <div class="pb-10">
+        <!-- Footer Center -->
+        <div class="mt-[100px]">
+          <!-- Section Container -->
+          <div class="global-container">
+            <!-- Footer Widgets Block -->
+            <div
+              class="grid gap-x-10 gap-y-[60px] sm:grid-cols-2 md:grid-cols-4 lg:flex lg:justify-between lg:gap-x-20"
+            >
+              <!-- Footer Widget -->
+              <div class="flex flex-col gap-y-6 lg:ml-5">
+                <!-- Footer Title -->
+                <h4 class="text-[21px] font-semibold capitalize text-white">
+                  Primary
+                </h4>
+                <!-- Footer Title -->
+
+                <!-- Footer Navbar -->
+                <ul class="flex flex-col gap-y-[10px] capitalize">
+                  <li>
+                    <a
+                      routerLink="/"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="/about"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="/pricing"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Packages</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="/faq"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >FAQ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="/contact"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Footer Widget -->
+              <!-- Footer Widget Item -->
+              <div class="flex flex-col gap-y-6">
+                <!-- Footer Title -->
+                <h4 class="text-[21px] font-semibold capitalize text-white">
+                  Customer
+                </h4>
+                <!-- Footer Title -->
+
+                <!-- Footer Navbar -->
+                <ul class="flex flex-col gap-y-[10px] capitalize">
+                  <li>
+                    <a
+                      routerLink="/question"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Start Journey</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="login.html"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Login</a
+                    >
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- Footer Widget Item -->
+              <!-- Footer Widget Item -->
+              <div class="flex flex-col gap-y-6 lg:mr-5">
+                <!-- Footer Title -->
+                <h4 class="text-[21px] font-semibold capitalize text-white ml-2">
+                  Socials
+                </h4>
+                <!-- Footer Title -->
+
+                <!-- Footer Navbar -->
+                <ul class="flex flex-col gap-y-[15px] capitalize">
+                  <li>
+                    <a
+                      href="http://www.facebook.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/facebook-icon-white.svg"
+                          alt="facebook-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Facebook</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.twitter.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/twitter-icon-white.svg"
+                          alt="twitter-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Twitter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.instagram.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/instagram-icon-white.svg"
+                          alt="instagram-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Instagram</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.linkedin.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/linkedin-icon-white.svg"
+                          alt="linkedin-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Linkedin</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Footer Widget Item -->
+            </div>
+            <!-- Footer Widgets Block -->
+          </div>
+          <!-- Section Container -->
+        </div>
+        <!-- Footer Center -->
+
+        <!-- Footer Separator -->
+        <div class="global-container">
+          <div class="mb-10 mt-[60px] h-[1px] w-full bg-white opacity-10"></div>
+        </div>
+        <!-- Footer Separator -->
+
+        <!-- Footer Bottom -->
+        <div>
+          <div class="global-container">
+            <div
+              class="flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left ml-2 mr-5"
+            >
+              <a routerLink="/">
+                <img
+                  src="../../../assets/img/Nutrin-logo.svg"
+                  alt="Nutrin"
+                  width="111"
+                  height="23"
+                />
+              </a>
+
+              <p>&copy; Copyright 2024, All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+      </div>
+      <!-- Section Container -->
+      <!-- Background Gradient -->
+      <div
+        class="absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#39FF14] to-[#37ff1460] blur-[150px]"
+      ></div>
+    </div>
+  </footer>
+  <!--...::: Footer-2 Section End :::... -->
+</div>

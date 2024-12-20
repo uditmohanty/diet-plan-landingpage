@@ -1,0 +1,6 @@
+/* Disable interactions with elements outside modal when it's open */
+.modal-open #paypal-button-container {
+    pointer-events: none; /* Disable clicks */
+    opacity: 0.5; /* Optional: Dim the background */
+  }
+  

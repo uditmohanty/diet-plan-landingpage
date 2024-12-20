@@ -1,0 +1,51 @@
+// Prevent text selection on question and answer divs
+.question, .answer {
+    user-select: none;
+  }
+
+.accordion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: border-color 0.3s ease;
+  color: white;
+}
+
+/* Icon structure for the "+" symbol */
+.accordion-icon-plus {
+  position: relative;
+  width: 20px;
+  height: 20px;
+ 
+}
+
+.accordion-icon-plus::before,
+.accordion-icon-plus::after {
+  content: '';
+  position: absolute;
+  background-color: currentColor;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.accordion-icon-plus::after {
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+
+/* Green color on hover */
+.group:hover .accordion-icon {
+  border-color: rgb(3, 179, 3);
+  color: rgb(3, 179, 3);
+}

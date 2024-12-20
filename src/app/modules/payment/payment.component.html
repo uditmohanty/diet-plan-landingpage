@@ -1,0 +1,700 @@
+<div class="page-wrapper relative z-[1] bg-black text-white">
+  <!--...::: Header Start :::... -->
+  <header
+    class="site-header site-header--absolute is--white py-3"
+    id="sticky-menu"
+  >
+    <div class="global-container">
+      <div class="flex items-center justify-between gap-x-8">
+        <!-- Header Logo -->
+        <a href="index.html" class="">
+          <img
+            src="../../../assets/img/Nutrin-logo.svg"
+            alt="Nutrin"
+            width="96"
+            height="24"
+          />
+        </a>
+        <!-- Header Logo -->
+
+        <!-- Header Navigation -->
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <img
+                  class="dropdown-icon"
+                  src="assets/img/icon-black-long-arrow-right.svg"
+                  alt="cheveron-right"
+                  width="16"
+                  height="16"
+                />
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main is-text-white">
+              <li class="nav-item">
+                <a routerLink="/" class="nav-link-item">Home</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/about" class="nav-link-item">About</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/pricing" class="nav-link-item">Packages </a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/faq" class="nav-link-item">FAQ </a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/contact" class="nav-link-item">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Header Navigation -->
+
+        <!-- Header User Event -->
+        <div class="flex items-center gap-6">
+          <a
+            href="login.html"
+            class="hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-neonGreen hover:text-neonGreen lg:inline-block"
+            >Login</a
+          >
+          <a
+            routerLink="/question"
+            class="button hidden h-full rounded border-none bg-neonGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block"
+            >Start Journey</a
+          >
+          <!-- Responsive Offcanvas Menu Button -->
+          <div class="block lg:hidden">
+            <button class="mobile-menu-trigger is-white">
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- Header User Event -->
+      </div>
+    </div>
+  </header>
+  <!--...::: Header End :::... -->
+
+  <main class="main-wrapper relative overflow-hidden">
+    <!-- Separator -->
+    <div class="global-container overflow-hidden mt-[100px]">
+      <div class="h-[1px] w-full bg-[#363636]"></div>
+    </div>
+    <!-- Separator -->
+
+    <section id="info-section">
+      <div class="container mx-auto px-4 sm:px-10 lg:px-60 mt-20 text-center">
+        <div class="grid gap-10 lg:grid-cols-3">
+          <!-- Left Section -->
+          <div class="w-60 lg:w-full mx-auto bg-black rounded-lg">
+            <img
+              src="../../../assets/img/1.png"
+              alt="fat"
+              class="w-full inline-block mt-2"
+            />
+            <div>
+              <p
+                class="bg-[#121212] text-xl sm:text-2xl lg:text-3xl text-center font-semibold"
+              >
+                NOW
+              </p>
+              <div class="h-[1px] w-full bg-[#363636]"></div>
+            </div>
+          </div>
+
+          <!-- Center Arrow Section -->
+          <div
+            class="flex items-center justify-center w-1/2 sm:w-1/2 lg:w-60 lg:h-60 bg-black rounded-lg mx-auto"
+          >
+            <!-- Flex Direction Changes Based on Screen Size -->
+            <div
+              class="flex sm:flex-row flex-col sm:rotate-0 rotate-180 items-center"
+            >
+              <!-- First Arrow -->
+              <span
+                class="block w-10 h-10 sm:w-10 sm:h-10 lg:w-20 lg:h-20 border-l-8 border-t-8 sm:border-t-8 sm:border-r-8 sm:border-l-0 border-gray-400 transform rotate-45"
+              >
+              </span>
+              <!-- Second Arrow -->
+              <span
+                class="block w-10 h-10 sm:w-10 sm:h-10 lg:w-20 lg:h-20 border-l-8 border-t-8 sm:border-t-8 sm:border-r-8 sm:border-l-0 border-gray-400 transform rotate-45 mt-2 sm:mt-0 sm:-ml-4"
+              >
+              </span>
+            </div>
+          </div>
+          <!-- Right Section -->
+          <div class="w-60 lg:w-full mx-auto bg-black rounded-lg">
+            <img
+              src="../../../assets/img/2.png"
+              alt="fit"
+              class="w-full inline-block mt-2"
+            />
+            <div>
+              <p
+                class="bg-[#121212] text-xl sm:text-2xl lg:text-3xl text-center font-semibold"
+              >
+                AFTER
+              </p>
+              <div class="h-[1px] w-full bg-[#363636]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="workout-section">
+      <div class="global-container mt-40">
+        <div class="bg-black mt-20 w-full">
+          <ul class="grid">
+            <li
+              class="bg-black lg:p-[30px] text-white duration-300 lg:hover:scale-105 cursor-pointer"
+            >
+              <p class="text-center mb-2 lg:text-3xl text-xl font-semibold">
+                Full workout plan
+              </p>
+              <p class="lg:text-center text-[21px]">
+                ☑️Build a habit & build correct exercising techniques
+              </p>
+              <p class="lg:text-center text-[21px]">
+                ☑️Achieve your goal and change your life for yourself
+              </p>
+              <p class="lg:text-center text-[21px]">
+                ☑️Lose excessive body fat & improve workout stamina
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="package-payment-section" *ngIf="showSection">
+      <div class="container mx-auto m-40 text-center bg-[#121212]">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto p-6 space-y-6 lg:space-y-0 lg:space-x-8"
+        >
+          <!-- Left Section -->
+          <div class="lg:w-1/2 text-center lg:text-left relative">
+            <h3
+              class="text-white font-semibold text-xl text-center relative z-10 mb-2"
+            >
+              1103 workout plans sold in the last hour
+            </h3>
+
+            <div
+              class="bg-cover bg-center w-full h-[600px] rounded-lg"
+              style="
+                background-image: url('../../../assets/img/paymentpicture.webp');
+              "
+            >
+              <!-- Additional content can go here if needed -->
+            </div>
+          </div>
+
+          <!-- Right Section: Package Selection or Checkout -->
+          <div class="lg:w-1/2 relative">
+            <h2 *ngIf="!checkout" class="text-3xl text-white mb-10">
+              Choose the best plan for you
+            </h2>
+
+            <!-- Package Selection -->
+            <div *ngIf="!checkout">
+              <div
+                *ngFor="let package of packages; let i = index"
+                (click)="selectPackage(i)"
+                class="pricing-details flex justify-between items-start mt-6 border-2 transform transition p-4 cursor-pointer relative"
+                [ngClass]="{
+                  'border-white bg-gray-800': selectedIndex === i,
+                  'border-gray-400 hover:-translate-y-2 hover:shadow-xl':
+                    selectedIndex !== i
+                }"
+              >
+                <!-- Most Popular label for the second package (index 1) -->
+                <div
+                  *ngIf="i === 1"
+                  class="absolute -top-1 -right-8 bg-neonGreen text-black font-semibold px-1 py-0.5 text-[10px] rounded-full transform rotate-45"
+                >
+                  Most Popular
+                </div>
+
+                <!-- Left Side: Duration and Total Price -->
+                <div class="left-details">
+                  <p class="text-white text-lg font-semibold">
+                    {{ package.duration }}
+                  </p>
+                  <p class="text-gray-400 text-sm mt-1">
+                    {{ package.totalPrice }}&nbsp;USD
+                  </p>
+                </div>
+
+                <!-- Right Side: Price Per Day -->
+                <div class="right-details text-center">
+                  <p class="text-white text-xl font-bold">
+                    {{ package.pricePerDay
+                    }}<sup class="font-semibold">USD</sup>
+                  </p>
+                  <p class="text-gray-400 text-sm">per day</p>
+                </div>
+              </div>
+
+              <!-- Continue Button -->
+              <div class="mt-6">
+                <button
+                  [disabled]="selectedIndex === null"
+                  class="w-60 px-4 py-3 bg-gray-300 text-black font-semibold rounded-lg hover:bg-neonGreen transition disabled:bg-gray-300 disabled:cursor-not-allowed"
+                  (click)="continue()"
+                >
+                  Continue
+                </button>
+              </div>
+            </div>
+
+            <!-- Checkout View -->
+            <div *ngIf="checkout" class="relative">
+              <h2 class="text-3xl text-white mb-10">Checkout</h2>
+
+              <div
+                class="bg-[#121212] border-2 border-white p-6 rounded-lg text-white relative"
+              >
+                <p class="text-lg font-semibold">
+                  Selected Plan: {{ packages[selectedIndex].duration }}
+                </p>
+                <p class="text-sm">
+                  Total Price: {{ packages[selectedIndex].totalPrice }} USD
+                </p>
+                <p class="text-sm">
+                  Price per Day: {{ packages[selectedIndex].pricePerDay }} USD
+                </p>
+                <p class="text-sm">
+                  Plan ID: {{ selectedPlanId }}  <!-- Display Plan ID -->
+                </p>
+
+                <!-- PayPal Button Section -->
+                <div id="paypal-button-container" class="mt-4"></div>
+
+                <!-- Change Package Button Positioned at Bottom Right -->
+                <div class="flex justify-end mt-6">
+                  <button
+                    class="px-4 py-2 bg-gray-300 text-black font-semibold rounded-lg shadow-md hover:bg-neonGreen transition duration-300"
+                    (click)="closeCheckout()"
+                  >
+                    Change Plan
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal Popup -->
+            <div
+              *ngIf="showModal"
+              class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+            >
+              <div
+                class="bg-[#121212] rounded-lg shadow-lg w-3/4 max-w-md p-6 text-center relative z-50"
+              >
+                <h2
+                  class="text-xl font-bold mb-4"
+                  [ngClass]="{
+                    'text-green-500': isSuccess,
+                    'text-white': !isSuccess
+                  }"
+                >
+                  {{ modalMessage }}
+                </h2>
+                <button
+                  class="px-4 py-2 bg-gray-300 text-black font-semibold rounded-lg shadow-md hover:bg-neonGreen transition duration-300"
+                  (click)="closeModal()"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="form" *ngIf="showSection == false">
+      <div
+        class="max-w-lg mx-auto mb-10 bg-[#121212] border border-[#121212] shadow-lg rounded-lg p-8 transform transition hover:-translate-y-1 hover:shadow-xl hover:border-gray-400 cursor-pointer"
+      >
+        <h2 class="text-2xl font-semibold text-white mb-6">
+          Payment Information
+        </h2>
+
+        <form (submit)="onSubmit()" class="space-y-4">
+          <div>
+            <label
+              for="email"
+              class="block text-white font-semibold mb-2 text-left"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              [(ngModel)]="email"
+              class="mt-1 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="password"
+              class="block text-white font-semibold mb-2 text-left"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              [(ngModel)]="password"
+              class="mt-1 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="mobileNumber"
+              class="block text-white font-semibold mb-2 text-left"
+              >Mobile Number</label
+            >
+            <input
+              type="tel"
+              id="mobileNumber"
+              name="mobileNumber"
+              [(ngModel)]="mobileNumber"
+              class="mt-1 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              placeholder="Enter your mobile number"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="firstName"
+              class="block text-white font-semibold mb-2 text-left"
+              >First Name</label
+            >
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              [(ngModel)]="firstName"
+              class="mt-1 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="lastName"
+              class="block text-white font-semibold mb-2 text-left"
+              >Last Name</label
+            >
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              [(ngModel)]="lastName"
+              class="mt-1 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+
+          <div>
+            <label
+              for="address"
+              class="block text-white font-semibold mb-2 text-left"
+              >Address</label
+            >
+            <textarea
+              id="address"
+              name="address"
+              [(ngModel)]="address"
+              class="mt-1 p-3 w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+              placeholder="Enter your address"
+              required
+            ></textarea>
+          </div>
+
+          <div class="flex justify-end">
+            <button
+              type="submit"
+              class="w-full py-3 bg-white text-black rounded-lg font-semibold hover:bg-neonGreen hover:text-white transition duration-300"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="moneyback-section">
+      <div class="container mx-auto bg-[#121212] lg:h-60 py-10">
+        <div
+          class="flex flex-col lg:flex-row items-center justify-between max-w-full lg:p-2 lg:ml-5 lg:mr-20 mx-auto space-y-10 lg:space-y-0 lg:space-x-10"
+        >
+          <!-- Left Section -->
+          <div class="lg:w-1/2 text-center lg:text-left">
+            <p
+              class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4"
+            >
+              Money-Back Guarantee
+            </p>
+            <p class="text-gray-300 text-sm md:text-base">
+              We believe that our plan may work for you and you’ll get visible
+              results in 4 weeks! We are even ready to completely refund you
+              within 30 days after purchase if you don’t get visible results and
+              can demonstrate that you have followed our plan.
+            </p>
+          </div>
+
+          <!-- Right Section: Dynamic Price Packages -->
+          <div class="lg:w-1/2 flex justify-center lg:justify-end">
+            <div class="w-40 h-40 md:w-40 md:h-40">
+              <img
+                src="../../../assets/img/moneyback.png"
+                alt="Money Back Guarantee"
+                class="w-full h-full rounded-full object-cover bg-[#121212]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Separator -->
+    <div class="global-container overflow-hidden mt-[100px]">
+      <div class="h-[1px] w-full bg-[#363636]"></div>
+    </div>
+    <!-- Separator -->
+  </main>
+
+  <!--...::: Footer-2 Section Start :::... -->
+  <footer id="footer-4">
+    <div class="relative z-[1] overflow-hidden bg-black text-white">
+      <!-- Section Container -->
+      <div class="pb-10">
+        <!-- Footer Center -->
+        <div class="mt-[100px]">
+          <!-- Section Container -->
+          <div class="global-container">
+            <!-- Footer Widgets Block -->
+            <div
+              class="grid gap-x-10 gap-y-[60px] sm:grid-cols-2 md:grid-cols-4 lg:flex lg:justify-between lg:gap-x-20"
+            >
+              <!-- Footer Widget -->
+              <div class="flex flex-col gap-y-6 lg:ml-5">
+                <!-- Footer Title -->
+                <h4 class="text-[21px] font-semibold capitalize text-white">
+                  Primary
+                </h4>
+                <!-- Footer Title -->
+
+                <!-- Footer Navbar -->
+                <ul class="flex flex-col gap-y-[10px] capitalize">
+                  <li>
+                    <a
+                      routerLink="/"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="about"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="pricing"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Packages</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="faq"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >FAQ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      routerLink="contact"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Footer Widget -->
+              <!-- Footer Widget Item -->
+              <div class="flex flex-col gap-y-6">
+                <!-- Footer Title -->
+                <h4 class="text-[21px] font-semibold capitalize text-white">
+                  Customer
+                </h4>
+                <!-- Footer Title -->
+
+                <!-- Footer Navbar -->
+                <ul class="flex flex-col gap-y-[10px] capitalize">
+                  <li>
+                    <a
+                      routerLink="/question"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Start Journey</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="login.html"
+                      class="transition-all duration-300 ease-linear hover:text-neonGreen"
+                      >Login</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- Footer Widget Item -->
+              <!-- Footer Widget Item -->
+              <div class="flex flex-col gap-y-6 lg:mr-5">
+                <!-- Footer Title -->
+                <h4
+                  class="text-[21px] font-semibold capitalize text-white ml-2"
+                >
+                  Socials
+                </h4>
+                <!-- Footer Title -->
+
+                <!-- Footer Navbar -->
+                <ul class="flex flex-col gap-y-[15px] capitalize">
+                  <li>
+                    <a
+                      href="http://www.facebook.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/facebook-icon-white.svg"
+                          alt="facebook-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Facebook</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.twitter.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/twitter-icon-white.svg"
+                          alt="twitter-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Twitter</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.instagram.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/instagram-icon-white.svg"
+                          alt="instagram-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Instagram</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.linkedin.com"
+                      class="group flex items-center gap-x-3"
+                    >
+                      <div
+                        class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600"
+                      >
+                        <img
+                          src="assets/img/th-1/linkedin-icon-white.svg"
+                          alt="linkedin-icon-white"
+                          width="14"
+                          height="14"
+                        />
+                      </div>
+                      <span class="inline-block flex-1">Linkedin</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Footer Widget Item -->
+            </div>
+            <!-- Footer Widgets Block -->
+          </div>
+          <!-- Section Container -->
+        </div>
+        <!-- Footer Center -->
+
+        <!-- Footer Separator -->
+        <div class="global-container">
+          <div class="mb-10 mt-[60px] h-[1px] w-full bg-white opacity-10"></div>
+        </div>
+        <!-- Footer Separator -->
+
+        <!-- Footer Bottom -->
+        <div>
+          <div class="global-container">
+            <div
+              class="flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left ml-2 mr-5"
+            >
+              <a routerLink="/">
+                <img
+                  src="../../../assets/img/Nutrin-logo.svg"
+                  alt="Nutrin"
+                  width="111"
+                  height="23"
+                />
+              </a>
+
+              <p>&copy; Copyright 2024, All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Bottom -->
+      </div>
+      <!-- Section Container -->
+      <!-- Background Gradient -->
+      <div
+        class="absolute left-1/2 top-[80%] -z-[1] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#39FF14] to-[#37ff1460] blur-[150px]"
+      ></div>
+    </div>
+  </footer>
+  <!--...::: Footer-2 Section End :::... -->
+</div>
